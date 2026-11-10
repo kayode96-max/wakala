@@ -1,0 +1,84 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnpm-store/
+
+# Next.js / React
+.next/
+out/
+build/
+dist/
+.vercel/
+.turbo/
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!.env*.example
+*.pem
+*.key
+
+# Logs and debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+logs/
+*.log
+
+# Testing and coverage
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+blob-report/
+
+# Caches
+.cache/
+.eslintcache
+.prettiercache
+.stylelintcache
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+*.iml
+
+# TypeScript / compilers
+*.js.map
+
+# Foundry
+cache/
+out/
+broadcast/
+lib/
+!lib/.gitkeep
+artifacts/
+
+# Solidity / coverage extras
+lcov.info
+lcov-report/
+
+# WDK / wallet local state
+.wdk/
+wallets/
+*.seed
+
+# OS / misc
+*.local
+.direnv/
